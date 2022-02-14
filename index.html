@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <br><br><br><br>
+  <h2 class="titulo">ENCRIPTADOR DE TEXTO</h2>
+  <br><br><br><br>
+
+  <main class="main">
+  
+      <section class="form box">
+          <label for="input-texto">Solo letras minúsculas, sin acento</label>
+          <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+          <button class="btn" onclick="encriptar()">Encriptar</button>
+          <button class="btn" onclick="desencriptar()">Desencriptar</button>
+          <button class="btn" onclick="pegar()">Pegar</button>
+          
+      </section>
+    
+      <section class="msg box">
+        <label id="">Mensaje Encriptado:</label>
+        <input class="text-input" type="text" id="msg"></input>
+        <input class="btn" type="submit" value="Copiar" id="btn-copy"onclick="Copiar()">
+      </section>
+
+    
+  </main>
+<br><br><br><br><br><br><br><br>
+
+  <Footer>
+    <div id="footer">
+      <h3 class="social">@ HMONSANTO 2022</h3>
+    </div>
+  </Footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
